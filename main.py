@@ -75,7 +75,6 @@ info = session.get('https://nodego.ai/api/user/me',headers={
     "Sec-Fetch-Mode": "cors",
     "Sec-Fetch-Dest": "empty",
     "Referer": "https://app.nodego.ai/",
-    "Accept-Encoding": "gzip, deflate, br, zstd",
     "Accept-Language": "en-US,en;q=0.9",
     "If-None-Match": "W/\"385-Ed7sjmewlLtFmWf+Hf4zIb2L1E0\""
 })
@@ -121,7 +120,6 @@ if info.status_code == 200:
         "Sec-Fetch-Mode": "cors",
         "Sec-Fetch-Dest": "empty",
         "Sec-Fetch-Storage-Access": "active",
-        "Accept-Encoding": "gzip, deflate, br, zstd",
         "Accept-Language": "en-US,en;q=0.9"
     }
     while True:
